@@ -1,0 +1,104 @@
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Bebas Neue', cursive;
+		overflow: hidden;
+		
+
+	}
+	body{
+		background: url(IMG/Hollow-Knight-video-games-minimalism-dark-1300923-wallhere.com.jpg);
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+
+
+		
+	}
+	.capa{
+		position: right;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.4);
+
+	}
+
+
+	.sidebar{
+		position: fixed;
+		background: #1c1c1c;
+		width: 270px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	.sidebar h2{
+		text-align: center;
+		font-size: 200%;
+		color: #c7c7c7;
+		background: #1c1c1c;
+		margin-top: 15%;
+		margin-bottom: 7%;
+		font-weight: bold;
+	}
+
+
+	.sidebar ul li {
+		margin: 10px 0;
+	}
+
+	.sidebar ul li a{
+		color: #c7c7c7;
+		font-size: 160%;
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.sidebar ul li a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+		margin-left: 5px;
+		transition: 0.4s;
+	}
+
+	/*menu izq termina aqui */
+
+	/* pagina aqui  */
+
+	.titulo{
+		color: white;
+		position: absolute;
+		top: 10%;
+		left: 34%;
+		transform: translate(-50%, -50%);
+		text-align: left;
+		font-size: 600%;
+		display: inline-block;
+	}
+
+	.textito {
+		color: white;
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		font-size: 150%;
+		display: inline-block;
+
+	}
+
+
+	.redes{
+		font-size: 150%;
+		margin-top: 107%;
+		text-align: center;
+
+	}
+	

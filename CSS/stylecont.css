@@ -1,0 +1,181 @@
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Bebas Neue', cursive;
+		overflow: hidden;
+		
+
+	}
+	body{
+
+		height: 100vh;
+		width: 100%;
+
+
+		
+	}
+	.capa{
+		position: right;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.4);
+
+	}
+
+	/*menu izq empieza aqui*/
+
+	.sidebar{
+		position: fixed;
+		background: #1c1c1c;
+		width: 270px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	.sidebar h2{
+		text-align: center;
+		font-size: 200%;
+		color: #c7c7c7;
+		background: #1c1c1c;
+		margin-top: 15%;
+		margin-bottom: 7%;
+		font-weight: bold;
+	}
+
+
+	.sidebar ul li {
+		margin: 10px 0;
+	}
+
+	.sidebar ul li a{
+		color: #c7c7c7;
+		font-size: 160%;
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.sidebar ul li a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+		margin-left: 5px;
+		transition: 0.4s;
+	}
+
+	/*menu izq termina aqui */
+
+	/* pagina aqui  */
+
+	.redes{
+		font-size: 150%;
+		margin-top: 107%;
+		text-align: center;
+
+	}
+
+	/*formulario contacto empieza aqui*/
+
+	.contacto{
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(9,8,15,255);
+		color: #ffffff;
+	}
+	
+	.imagenfon{
+		height: 100%;
+		width: 50%;
+		overflow: hidden;
+		display: flex;
+		justify-content:right;
+		align-items:center;
+	}
+	
+	.contactoimage{
+		width: 70%;
+		
+	}
+	
+	.formulario{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+		padding:0 7.3% 0 4.7%;
+		width: 50%;
+	}
+	
+	.contactotitulo{
+		font-size: 100px;
+		font-family: 'Bellefair', serif;
+		font-weight: 400;
+		margin-bottom: 70px;
+		text-transform: uppercase;
+	}
+	
+	.contactform, .linescribir{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.linescribir{
+		margin-bottom: 45px;
+	}
+	
+	.contactlabel{
+		font-size: 18px;
+		font-weight: 600;
+	}
+	
+	.contactinput{
+		height: 30px;
+		outline: none;
+		padding: 5px 0;
+		border-bottom: 2px solid #ffffff;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		width: 100%;
+		color: #ffffff;
+		background-color: transparent;
+	}
+	
+	.contactinputtextarea{
+		height: 100px;
+		outline: none;
+		padding: 5px 0;
+		border-bottom: 2px solid #ffffff;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		width: 100%;
+		color: #ffffff;
+		resize: none;
+		background-color: transparent;
+	}
+	
+	.boton{
+		padding: 18px 55px;
+		background-color: #ffffff;
+		border-radius: 50px;
+		font-weight: 600;
+		border: none;
+		font-size: 18px;
+		cursor: pointer;
+	}
+	
+	.boton:hover{
+		background-color: #ffffff;
+	}
+
+	/*termina aqui*/
